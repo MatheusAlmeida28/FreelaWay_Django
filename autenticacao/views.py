@@ -48,7 +48,6 @@ def logar(request):
         usuario = auth.authenticate(username=username, password=senha)
     
   
-    
         if not usuario:
             user_is_not_valid(request)
             return redirect('/auth/logar')
