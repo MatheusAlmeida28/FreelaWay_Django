@@ -61,5 +61,5 @@ def sair(request):
     auth.logout(request)
     return redirect('/auth/logar')
 
-    
 
+#teste
